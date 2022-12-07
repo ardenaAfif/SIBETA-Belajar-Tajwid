@@ -26,6 +26,7 @@ header h4 {
 	height: 30px;
 	left: 1117px;
 	top: 28px;
+	text-decoration: none;
 
 	/* H4 */
 	
@@ -38,11 +39,47 @@ header h4 {
 
 	text-align: center;
 	letter-spacing: 0.01em;
+	color: #000000;
 
+}
+header h4 a {
+	text-decoration: none;
 	color: #000000;
 }
-.btn {
+header h4 a:hover {
+	color: red;
+}
 
+header h3 {
+
+	background-color: #47B5FF ;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 6px 12px;
+	border-radius: 10px;
+	left: 1230px;
+    top: 24px;
+}
+header h3 a {
+	text-decoration: none;
+	color: #F9F9F9;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: 0.09em;
+
+}
+header h3:hover {
+	background-color: gray;
+	color: white;
+}
+
+/*
+.btn {
+display: none;
 position: absolute;
 width: 180px;
 height: 60px;
@@ -53,17 +90,16 @@ top: 13px;
 /*text-decoration: none;*/
 /*border: 1px solid black;*/
 /*border-radius: 3px;*/
+/*}*/
 
-}
 
 header h1{
 /* Ayo Belajar Tajwid */
-
 position: absolute;
 width: 413px;
 height: 60px;
-left: 514px;
-top: 127px;
+left: 524px;
+top: 200px;
 
 /* H1 */
 
@@ -82,15 +118,16 @@ letter-spacing: 0.01em;
 color: #7FBCD2;
 
 }
+
 header h2 {
-	/* Meningkatkan Kualitas bacaan Al - Qu’ran */
+/* Meningkatkan Kualitas bacaan Al - Qu’ran */
 
 
 position: absolute;
 width: 683px;
 height: 120px;
 left: 379px;
-top: 187px;
+top: 260px;
 
 /* H1 */
 
@@ -103,14 +140,11 @@ text-align: center;
 letter-spacing: 0.01em;
 
 /* Color Secondary */
-
 color: #7FBCD2;
-
 }
+
 .container {
-	/* Rectangle 2 */
-
-
+/*	 Rectangle 2 */
 position: absolute;
 width: 1440px;
 height: 532px;
@@ -118,11 +152,11 @@ left: 0px;
 top: 492px;
 
 /* Color Primary */
-
 background: #A5F1E9;
 }
+
 .container .gambar-bawah {
-	/* Component 1 */
+/*	/* Component 1 */
     position: absolute;
     width: 871px;
     height: 589px;
