@@ -1,0 +1,86 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+header {
+	position: absolute;
+	width: 1440px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	background: rgba(250,250,250,0.78);
+}
+header img {
+	position: relative;
+	margin-top: 15px;
+	margin-left: 50px;
+	width: 180px;
+	height: 69.18px;
+}
+header h4 {
+/* Masuk */
+
+
+	position: absolute;
+	width: 69px;	
+	height: 30px;
+	left: 1117px;
+	top: 28px;
+
+	/* H4 */
+	
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	/* identical to box height */
+
+	text-align: center;
+	letter-spacing: 0.01em;
+
+	color: #000000;
+}
+header button {
+
+position: absolute;
+width: 180px;
+height: 60px;
+left: 1221px;
+top: 13px;
+
+}
+.container {
+position: relative;
+top: 100px;
+width: 1440px;
+height: 492px;
+
+background: rgba(250, 250, 250, 0.78);
+}
+.container h1{
+/* Ayo Belajar Tajwid */
+
+position: absolute;
+width: 413px;
+height: 60px;
+left: 514px;
+top: 127px;
+
+/* H1 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+/* Color Secondary */
+
+color: #7FBCD2;
+
+}
