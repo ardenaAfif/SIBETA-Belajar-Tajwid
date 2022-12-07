@@ -42,9 +42,14 @@
 .btn-daftar:hover {
   background-color: white;
   border: 1px solid #47b5ff;
+
   color: #47b5ff;
   transition: .3s;
 }
+
+/* .btn-masuk {
+	margin-right: 20px;
+} */
 
 .jumbotron h1 {
   /* Ayo Belajar Tajwid */
@@ -78,6 +83,7 @@
   top: 187px;
 
   /* H1 */
+
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -87,6 +93,7 @@
   letter-spacing: 0.01em;
 
   /* Color Secondary */
+
   color: #7fbcd2;
 }
 .container {
