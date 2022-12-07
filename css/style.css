@@ -1,131 +1,112 @@
 * {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }
-header {
-	position: absolute;
-	width: 1440px;
-	height: 492px;
-	left: 0px;
-	top: 0px;
-	background: rgba(250,250,250,0.78);
+.navbar {
+  height: 490px;
+  left: 0px;
+  top: 0px;
+  background: rgba(250, 250, 250, 0.78);
 }
-header img {
-	position: relative;
-	margin-top: 15px;
-	margin-left: 50px;
-	width: 180px;
-	height: 69.18px;
-}
-header h4 {
-/* Masuk */
-
-
-	position: absolute;
-	width: 69px;	
-	height: 30px;
-	left: 1117px;
-	top: 28px;
-
-	/* H4 */
-	
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 20px;
-	line-height: 30px;
-	/* identical to box height */
-
-	text-align: center;
-	letter-spacing: 0.01em;
-
-	color: #000000;
-}
-.btn {
-
-position: absolute;
-width: 180px;
-height: 60px;
-left: 1221px;
-top: 13px;
-/*background-color: #47B5FF;*/
-/*color: #E7E7E7;*/
-/*text-decoration: none;*/
-/*border: 1px solid black;*/
-/*border-radius: 3px;*/
-
+.navbar-left img {
+  float: left;
+  margin-top: 15px;
+  margin-left: 50px;
+  width: 180px;
+  height: 69px;
 }
 
-header h1{
-/* Ayo Belajar Tajwid */
-
-position: absolute;
-width: 413px;
-height: 60px;
-left: 514px;
-top: 127px;
-
-/* H1 */
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 40px;
-line-height: 60px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.01em;
-
-/* Color Secondary */
-
-color: #7FBCD2;
-
+.navbar-right {
+  color: black;
+  padding: 12px 50px 0 0;
+  float: right;
+  margin: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
-header h2 {
-	/* Meningkatkan Kualitas bacaan Al - Qu’ran */
 
+.btn-daftar {
+  background-color: #47b5ff;
+  margin-left: 30px;
+  padding: 15px 20px;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid #47b5ff;
+}
 
-position: absolute;
-width: 683px;
-height: 120px;
-left: 379px;
-top: 187px;
+.btn-daftar:hover {
+  background-color: white;
+  border: 1px solid #47b5ff;
+  color: #47b5ff;
+  transition: .3s;
+}
 
-/* H1 */
+.jumbotron h1 {
+  /* Ayo Belajar Tajwid */
+  position: absolute;
+  width: 413px;
+  height: 60px;
+  left: 514px;
+  top: 127px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 40px;
-line-height: 60px;
-text-align: center;
-letter-spacing: 0.01em;
+  /* H1 */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
 
-/* Color Secondary */
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.01em;
 
-color: #7FBCD2;
+  /* Color Secondary */
+  color: #7fbcd2;
+}
 
+.jumbotron h2 {
+  /* Meningkatkan Kualitas bacaan Al - Qu’ran */
+  position: absolute;
+  width: 683px;
+  height: 120px;
+  left: 379px;
+  top: 187px;
+
+  /* H1 */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  /* Color Secondary */
+  color: #7fbcd2;
 }
 .container {
-	/* Rectangle 2 */
+  /* Rectangle 2 */
 
+  position: absolute;
+  width: 1440px;
+  height: 532px;
+  left: 0px;
+  top: 492px;
 
-position: absolute;
-width: 1440px;
-height: 532px;
-left: 0px;
-top: 492px;
+  /* Color Primary */
 
-/* Color Primary */
-
-background: #A5F1E9;
+  background: #a5f1e9;
 }
 .container .gambar-bawah {
-	/* Component 1 */
-    position: absolute;
-    width: 871px;
-    height: 589px;
-    left: 260px;
-    top: -57px;
+  /* Component 1 */
+  position: absolute;
+  width: 871px;
+  height: 589px;
+  left: 260px;
+  top: -57px;
 }
