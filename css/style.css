@@ -5,7 +5,7 @@
 header {
 	position: absolute;
 	width: 1440px;
-	height: 100px;
+	height: 492px;
 	left: 0px;
 	top: 0px;
 	background: rgba(250,250,250,0.78);
@@ -41,24 +41,22 @@ header h4 {
 
 	color: #000000;
 }
-header button {
+.btn {
 
 position: absolute;
 width: 180px;
 height: 60px;
 left: 1221px;
 top: 13px;
+/*background-color: #47B5FF;*/
+/*color: #E7E7E7;*/
+/*text-decoration: none;*/
+/*border: 1px solid black;*/
+/*border-radius: 3px;*/
 
 }
-.container {
-position: relative;
-top: 100px;
-width: 1440px;
-height: 492px;
 
-background: rgba(250, 250, 250, 0.78);
-}
-.container h1{
+header h1{
 /* Ayo Belajar Tajwid */
 
 position: absolute;
@@ -83,4 +81,51 @@ letter-spacing: 0.01em;
 
 color: #7FBCD2;
 
+}
+header h2 {
+	/* Meningkatkan Kualitas bacaan Al - Qu’ran */
+
+
+position: absolute;
+width: 683px;
+height: 120px;
+left: 379px;
+top: 187px;
+
+/* H1 */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.01em;
+
+/* Color Secondary */
+
+color: #7FBCD2;
+
+}
+.container {
+	/* Rectangle 2 */
+
+
+position: absolute;
+width: 1440px;
+height: 532px;
+left: 0px;
+top: 492px;
+
+/* Color Primary */
+
+background: #A5F1E9;
+}
+.container .gambar-bawah {
+	/* Component 1 */
+    position: absolute;
+    width: 871px;
+    height: 589px;
+    left: 260px;
+    top: -57px;
 }
