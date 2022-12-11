@@ -72,3 +72,26 @@ left: 720px;
 top: 0px;
 }
 
+.kanan img {
+	position: absolute;
+width: 606px;
+height: 539px;
+left: 67px;
+top: 161px;
+}
+
+.kanan h1 {
+position: absolute;
+width: 344px;
+height: 205px;
+left: 200px;
+top: 615px;
+ont-family: 'Amiri Quran Colored';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 98px;
+text-align: center;
+letter-spacing: 0.01em;
+color: black;
+}
