@@ -1,0 +1,139 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.kiri {
+  position: absolute;
+  background-color: #a5f1e9;
+  width: 604px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+}
+.kiri img {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 51px;
+  top: 164px;
+}
+.kiri h1 {
+  font-family: "Amiri Quran Colored";
+  font-style: normal;
+  font-size: 40px;
+  line-height: 98px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  position: absolute;
+  width: 344px;
+  height: 205px;
+  left: 129px;
+  top: 654px;
+  color: black;
+}
+.kanan {
+  position: absolute;
+  width: 836px;
+  height: 1024px;
+  left: 604px;
+  top: 0px;
+}
+.kanan img {
+  position: absolute;
+  width: 323px;
+  height: 124px;
+  left: 30px;
+  top: 30px;
+}
+.kanan h3 {
+  position: absolute;
+  width: 370px;
+  height: 30px;
+  left: 62px;
+  top: 177px;
+}
+
+/* // Form */
+form .user-details .input-box {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  top: 470px;
+  left: 110px;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 15px;
+  width: 500px;
+}
+.user-details .input-box .details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border-color: #9b59b6;
+}
+form .button {
+  position: absolute;
+  top: 637px;
+  left: 110px;
+  bottom: 0;
+  right: 0;
+  height: 45px;
+  margin: 45px 0;
+}
+form .button input {
+  height: 100%;
+  width: 520px;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: #47b5ff;
+  box-shadow: 0px 4px gray;
+  transition: all 0.1s ease;
+}
+form .button input:hover {
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+form .button input:active {
+  box-shadow: 0px 0px gray;
+  transition: 0.1s;
+}
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  position: absolute;
+  left: 288px;
+  top: 367px;
+  color: #7fbcd2;
+}
+
+.bawah-button {
+  color: gray;
+  top: 750px;
+  left: 258px;
+}
+.bawah-button span a {
+  color: #7fbcd2;
+  text-decoration: none;
+}
+
+/* // END FORM */
