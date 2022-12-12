@@ -43,7 +43,7 @@
   position: absolute;
   width: 323px;
   height: 124px;
-  left: 30px;
+  left: 200px;
   top: 30px;
 }
 .kanan h3 {
@@ -58,7 +58,7 @@
 form .user-details .input-box {
   position: relative;
   font-family: "Poppins", sans-serif;
-  top: 470px;
+  top: 420px;
   left: 110px;
   bottom: 0;
   right: 0;
@@ -88,7 +88,7 @@ form .user-details .input-box {
 }
 form .button {
   position: absolute;
-  top: 637px;
+  top: 757px;
   left: 110px;
   bottom: 0;
   right: 0;
@@ -128,7 +128,7 @@ h6 {
 
 .bawah-button {
   color: gray;
-  top: 750px;
+  top: 870px;
   left: 258px;
 }
 .bawah-button span a {
@@ -137,3 +137,60 @@ h6 {
 }
 
 /* // END FORM */
+
+/* login google */
+/* Google Login */
+.kanan h3 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 0px 0px 12px;
+  gap: 12px;
+
+  position: absolute;
+  width: 500px;
+  height: 80px;
+  left: 110px;
+  top: 236px;
+
+  background: #4285f4;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.08), 0px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+
+  /*FONT */
+  /* H3 */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  /* identical to box height */
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.kanan h3 span {
+  background-color: white;
+  margin-left: -13px;
+  margin-right: 50px;
+  width: 100px;
+  height: 80px;
+}
+.kanan h3 span i {
+  position: relative;
+  top: 22px;
+  scale: 2.2;
+  color: #4285f4;
+}
+hr {
+  position: absolute;
+
+  width: 600px;
+  left: 64px;
+  top: 347px;
+}
