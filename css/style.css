@@ -4,9 +4,7 @@
   text-decoration: none;
 }
 .navbar {
-  height: 490px;
-  left: 0px;
-  top: 0px;
+  height: 110px;
   background: rgba(250, 250, 250, 0.78);
 }
 .navbar-left img {
@@ -43,16 +41,19 @@
   background-color: white;
   border: 1px solid #47b5ff;
   color: #47b5ff;
-  transition: .3s;
+  transition: 0.3s;
 }
-
+.jumbotron {
+  height: 380px;
+  display: flex;
+  background: rgba(250, 250, 250, 0.78);
+}
 .jumbotron h1 {
   /* Ayo Belajar Tajwid */
-  position: absolute;
-  width: 413px;
-  height: 60px;
+  /* position: absolute; */
+  margin: auto;
+  width: 688px;
   left: 514px;
-  top: 127px;
 
   /* H1 */
   font-family: "Poppins";
@@ -69,31 +70,11 @@
   color: #7fbcd2;
 }
 
-.jumbotron h2 {
-  /* Meningkatkan Kualitas bacaan Al - Qu’ran */
-  position: absolute;
-  width: 683px;
-  height: 120px;
-  left: 379px;
-  top: 187px;
-
-  /* H1 */
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.01em;
-
-  /* Color Secondary */
-  color: #7fbcd2;
-}
-
 .container {
   /* Rectangle 2 */
-  position: absolute;
-  width: 1440px;
+  /* position: absolute; */
+  /* width: 1440px; */
+  display: flex;
   height: 532px;
   left: 0px;
   top: 492px;
@@ -104,9 +85,46 @@
 
 .container .gambar-bawah {
   /* Component 1 */
-  position: absolute;
+  /* position: absolute; */
   width: 871px;
-  height: 589px;
-  left: 260px;
-  top: -57px;
+  height: 530px;
+  margin: auto;
+}
+@media (max-width: 584px) {
+  .navbar {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-left {
+    display: flex;
+  }
+  .navbar-left img {
+    width: 120px;
+    margin: auto;
+    float: none;
+  }
+  .navbar-right {
+    margin: auto;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    float: none;
+    scale: 0.7;
+  }
+  .jumbotron {
+    height: 180px;
+  }
+  .jumbotron h1 {
+    width: 260px;
+    font-size: 14px;
+  }
+  .container {
+    height: 280px;
+  }
+  .container .gambar-bawah {
+    width: 300px;
+    height: 208px;
+    padding-top: 72px;
+  }
 }
