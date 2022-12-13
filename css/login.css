@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .login {
@@ -89,7 +90,7 @@ h6 {
 }
 .bawah-button {
   color: gray;
-  top: 750px;
+  top: 770px;
   left: 258px;
 }
 .bawah-button span a {
@@ -132,15 +133,15 @@ form .user-details .input-box {
 form .button {
   position: absolute;
   top: 637px;
-  left: 110px;
+  left: 140px;
   bottom: 0;
   right: 0;
   height: 45px;
   margin: 45px 0;
 }
 form .button input {
-  height: 100%;
-  width: 520px;
+  height: 60px;
+  width: 460px;
   outline: none;
   color: #fff;
   border: none;

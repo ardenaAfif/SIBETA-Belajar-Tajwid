@@ -89,15 +89,15 @@ form .user-details .input-box {
 form .button {
   position: absolute;
   top: 757px;
-  left: 110px;
+  left: 140px;
   bottom: 0;
   right: 0;
   height: 45px;
   margin: 45px 0;
 }
 form .button input {
-  height: 100%;
-  width: 520px;
+  height: 60px;
+  width: 460px;
   outline: none;
   color: #fff;
   border: none;
@@ -128,7 +128,7 @@ h6 {
 
 .bawah-button {
   color: gray;
-  top: 870px;
+  top: 890px;
   left: 258px;
 }
 .bawah-button span a {
