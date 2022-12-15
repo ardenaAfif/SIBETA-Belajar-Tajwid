@@ -13,6 +13,7 @@
   position: fixed;
   width: 100%;
   z-index: 200000;
+  height: 55px;
 }
 .nav-container {
   padding: 0 30px;
@@ -20,18 +21,18 @@
 }
 .navbar-nav {
   display: flex;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 .nav-list {
   display: flex;
 }
 .nav-item {
-  padding: 10px 30px;
+  padding: 5px 15px;
   margin: auto;
   display: flex;
   text-decoration: none;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.01em;
@@ -41,6 +42,49 @@
 }
 .nav-item .nav-link {
   color: #2b546a;
+}
+.nav-tengah {
+  width: 43vw;
+}
+.nav-kanan {
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.nav-akun {
+  text-decoration: none;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  color: #2b546a;
+}
+.nav-akun img {
+  width: 30px;
+  margin: 5px;
+}
+.nav-akun i {
+  margin: 5px;
+}
+.nav-akun-nama-level {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.nav-akun-nama-level span {
+  margin: 2px;
 }
 .main {
   position: relative;
