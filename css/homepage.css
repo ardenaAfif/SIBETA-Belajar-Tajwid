@@ -136,7 +136,8 @@
   color: #2b546a;
 }
 .tulisan-pelajaran-contain-kanan {
-  padding-left: 140px;
+  padding-left: 100px;
+  scale: 0.9;
   align-self: center;
 }
 @media (max-width: 1420px) {
