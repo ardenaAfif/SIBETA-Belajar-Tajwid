@@ -95,8 +95,6 @@
   margin: 0 auto;
   padding: 0 56px;
 }
-.pelajaran-utama {
-}
 .tulisan-pelajaran {
   padding: 26px 15px 0;
   text-decoration: none;
@@ -304,6 +302,7 @@
   background: #b6f0ff;
   box-shadow: 0 0px 10px 3px #00000040;
   border-radius: 10px;
+  margin: 10px auto 16px;
 }
 .kotak-daftar-contain-kotak-items h1 {
   text-decoration: none;
@@ -358,4 +357,39 @@
 }
 .daftar-bawah h3 a {
   color: red;
+}
+.footer {
+  position: relative;
+  top: 55px;
+  clear: left;
+  text-align: center;
+  box-shadow: 0 -2px 3px rgb(160 166 179 / 30%);
+}
+.footer-contain {
+  padding: 50px;
+}
+.footer-contain::before {
+  content: "";
+  display: table;
+}
+.footer-contain::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.footer-item-contain {
+  margin-bottom: 30px;
+}
+.footer-item-contain h4 {
+  line-height: 36px;
+}
+.footer-item-contain ul li {
+  list-style: none;
+  line-height: 28px;
+}
+@media (min-width: 768px) {
+  .footer-item-contain {
+    width: 33.33%;
+    float: left;
+  }
 }
