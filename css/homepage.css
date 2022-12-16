@@ -304,6 +304,11 @@
   border-radius: 10px;
   margin: 10px auto 16px;
 }
+.kotak-daftar-contain-kotak-items:hover {
+  box-shadow: 0 0px 17px 6px #00000057;
+  transform: translate3d(0, -1px, 0);
+}
+
 .kotak-daftar-contain-kotak-items h1 {
   text-decoration: none;
   display: inline-block;
