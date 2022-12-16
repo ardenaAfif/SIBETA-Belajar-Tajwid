@@ -348,3 +348,14 @@
     width: 25%;
   }
 }
+.daftar-bawah {
+  margin: 50px 0 64px;
+  text-align: center;
+  padding: 0 15px;
+}
+.daftar-bawah h3 {
+  font-weight: normal;
+}
+.daftar-bawah h3 a {
+  color: red;
+}
