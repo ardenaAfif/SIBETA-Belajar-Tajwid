@@ -5,6 +5,7 @@
   text-decoration: none;
   font-style: normal;
   box-sizing: border-box;
+  color: #2b546a;
 }
 .navbar {
   background: #88e7ce;
@@ -14,6 +15,7 @@
   width: 100%;
   z-index: 200000;
   height: 55px;
+  box-shadow: 0 1px 6px 4px rgb(160 166 179 / 30%);
 }
 .nav-container {
   padding: 0 30px;
@@ -88,15 +90,14 @@
 }
 .main {
   position: relative;
-  top: 90px;
+  top: 55px;
   background: #f9fbfe;
-}
-.daftar-pelajaran {
   margin: 0 auto;
   padding: 0 56px;
 }
+.pelajaran-utama {
+}
 .tulisan-pelajaran {
-  background: white;
   padding: 26px 15px 0;
   text-decoration: none;
 }
@@ -122,6 +123,7 @@
   border-radius: 10px;
   transition: 0.3s ease-in-out;
   position: relative;
+  background: #b6f0ff;
 }
 .tulisan-pelajaran-contain:hover {
   box-shadow: 0 0px 17px 6px #00000057;
@@ -190,7 +192,7 @@
   }
 }
 @media (max-width: 1220px) {
-  .daftar-pelajaran {
+  .main {
     padding: 20px;
   }
   .tulisan-pelajaran-contain {
@@ -228,7 +230,7 @@
   }
 }
 @media (max-width: 888px) {
-  .daftar-pelajaran {
+  .main {
     padding: 15px 20px;
   }
   .tulisan-pelajaran {
@@ -263,5 +265,86 @@
   }
   .tulisan-pelajaran-contain-kanan {
     scale: 0.7;
+  }
+}
+/* BAGIAN KEDUA (daftar pelajaran) */
+.daftar-pelajaran {
+  display: flex;
+  flex-direction: column;
+}
+.judul-daftar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-top: 48px;
+  padding-left: 15px;
+}
+.judul-daftar span {
+  display: inline-block;
+  color: #2b546a;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0 5px;
+}
+.kotak-daftar {
+  position: relative;
+  display: block;
+  margin: 0 auto 2%;
+  padding: 0 1.1%;
+  font-size: 1rem;
+}
+.kotak-daftar-contain-kotak {
+  transition: color 0.1s linear;
+}
+.kotak-daftar-contain-kotak-items {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background: #b6f0ff;
+  box-shadow: 0 0px 10px 3px #00000040;
+  border-radius: 10px;
+}
+.kotak-daftar-contain-kotak-items h1 {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  margin-top: 32px;
+  font-weight: 600;
+  padding: 0px 10px;
+  text-align: center;
+}
+.kotak-daftar-contain-kotak-items-gambar {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 110px;
+  padding: 100px 0;
+}
+.kotak-daftar-contain-kotak-items-jumlah {
+  font-size: 0.75rem;
+  margin-bottom: 40px;
+  display: flex;
+}
+.kotak-daftar-contain-kotak-items-jumlah img {
+  scale: 0.7;
+  vertical-align: center;
+}
+.kotak-daftar-contain-kotak-items-jumlah span {
+  margin: auto;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  .kotak-daftar {
+    width: 33.33%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .kotak-daftar {
+    width: 25%;
   }
 }
