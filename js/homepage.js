@@ -31,12 +31,12 @@ function tampilkan_dropdown() {
 }
 
 document
-  .getElementById("kembali-dropdown")
+  .getElementsByClassName("drop-back")
   .addEventListener("click", sembunyikan_dropdown);
 
 function sembunyikan_dropdown() {
-  var dropdown_check = document.getElementsByClassName("dropdown drop-check");
-  for (var i = 0; i < dropdown_check.length; i++) {
-    dropdown_check[i].classList = "dropdown";
+  var dropdown_checked = document.getElementsByClassName("dropdown drop-check");
+  for (var i = 0; i < dropdown_checked.length; i++) {
+    dropdown_checked[i].classList = "dropdown";
   }
 }

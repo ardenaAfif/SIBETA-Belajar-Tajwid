@@ -118,6 +118,10 @@
 .dropdown a:hover {
   background-color: #f0f0f0;
 }
+.none {
+  display: none;
+  position: absolute;
+}
 .main {
   position: relative;
   top: 55px;
