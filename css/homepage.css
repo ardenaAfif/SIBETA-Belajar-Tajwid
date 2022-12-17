@@ -88,6 +88,36 @@
 .nav-akun-nama-level span {
   margin: 2px;
 }
+.dropdown {
+  position: absolute;
+  top: 55px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: #b8b8b8;
+  transition: 1s all ease-in;
+  z-index: -9999;
+  scale: 0;
+}
+.drop-check {
+  scale: 1;
+  top: 55px;
+}
+.dropdown i {
+  margin: auto;
+  padding: 5px;
+}
+.dropdown i:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+.dropdown a {
+  padding: 10px;
+  border-bottom: 1px solid #85858563;
+}
+.dropdown a:hover {
+  background-color: #f0f0f0;
+}
 .main {
   position: relative;
   top: 55px;

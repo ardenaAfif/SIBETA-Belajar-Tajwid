@@ -18,3 +18,25 @@ function sembunyikan_sidebar() {
     tombol_side[i].classList = "sidebar-belum-muncul";
   }
 }
+
+document
+  .getElementById("navbar-kanan")
+  .addEventListener("click", tampilkan_dropdown);
+
+function tampilkan_dropdown() {
+  var dropdown_check = document.getElementsByClassName("dropdown");
+  for (var i = 0; i < dropdown_check.length; i++) {
+    dropdown_check[i].classList = "dropdown drop-check";
+  }
+}
+
+document
+  .getElementById("kembali-dropdown")
+  .addEventListener("click", sembunyikan_dropdown);
+
+function sembunyikan_dropdown() {
+  var dropdown_check = document.getElementsByClassName("dropdown drop-check");
+  for (var i = 0; i < dropdown_check.length; i++) {
+    dropdown_check[i].classList = "dropdown";
+  }
+}

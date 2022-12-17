@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/5d8dfb0173.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -12,6 +16,10 @@
     />
     <link rel="stylesheet" type="text/css" href="css/homepage.css" />
     <link rel="shortcut icon" href="img/logotok.png" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/5d8dfb0173.js"
+      crossorigin="anonymous"
+    ></script>
     <title>SIBETA</title>
   </head>
   <body>
@@ -28,7 +36,7 @@
         </div>
       </div>
       <div class="nav-tengah"></div>
-      <div class="nav-kanan">
+      <div class="nav-kanan" id="navbar-kanan">
         <div class="nav-akun">
           <img src="img/nav-akun.png" alt="profile" />
           <div class="nav-akun-nama-level">
@@ -36,6 +44,12 @@
             <span>(Lv.100)</span>
           </div>
           <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="dropdown">
+          <i class="fa-solid fa-arrow-up"></i>
+          <a href="">Dasbor</a>
+          <a href="">Pengaturan Akun</a>
+          <a href="">Log Out</a>
         </div>
       </div>
       <div class="header-sidebar">
@@ -255,6 +269,7 @@
     <div class="hubungi-kami" id="hubungi-kami">
       <span><i class="fa-regular fa-envelope"></i> Hubungi Kami </span>
     </div>
+
     <script src="js/homepage.js"></script>
   </body>
 </html>
