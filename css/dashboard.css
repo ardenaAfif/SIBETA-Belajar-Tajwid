@@ -7,3 +7,124 @@
   box-sizing: border-box;
   color: #2b546a;
 }
+.dashboard-container {
+  position: relative;
+  top: 55px;
+  display: flex;
+  padding: 10px 15px;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+}
+.row-user-profile {
+  display: inline-flex;
+  border-radius: 3px;
+  box-shadow: 0 0px 10px 3px #00000040;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  background: #b6f0ff;
+  max-height: 175px;
+  padding: 20px 15px;
+  margin: 20px 5px;
+  width: 73vw;
+}
+.row-user-profile:hover {
+  box-shadow: 0 0px 17px 6px #00000057;
+  transform: translate3d(0, -1px, 0);
+}
+.profil-detail {
+  display: flex;
+  padding-right: 40px;
+}
+.profil-detail-img {
+  scale: 0.7;
+  margin: auto;
+}
+.profil-detail-text {
+  margin: auto;
+  font-size: 0.875rem;
+}
+.lesson-done {
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #85858563;
+  border-left: 1px solid #85858563;
+  text-align: center;
+}
+.lesson-done-count {
+  display: inline-flex;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  align-items: center;
+}
+.lesson-done-count img {
+  scale: 0.6;
+}
+.lesson-done-text {
+  font-size: 0.75rem;
+  text-align: center;
+}
+.training-done {
+  margin: auto;
+  text-align: center;
+  padding-left: 20px;
+}
+.training-done-count {
+  display: inline-flex;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  align-items: flex-end;
+  margin-bottom: 8px;
+}
+.training-done-text {
+  font-size: 0.75rem;
+  text-align: center;
+}
+.right-container {
+  margin-left: 2vw;
+}
+.right-container img {
+  max-width: 175px;
+}
+@media (min-width: 1000px) {
+  .right-container {
+    margin-left: 5vw;
+  }
+}
+.next-lesson {
+  padding: 15px;
+}
+.heading-next-lesson {
+  margin-bottom: 15px;
+}
+.heading-content {
+  display: flex;
+  align-items: center;
+}
+.heading-content h2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-left: 8px;
+}
+.progress-lesson-card {
+  display: inline-flex;
+  height: 195px;
+  width: 73vw;
+  background: #e8e8e8;
+}
+.next-item-icon {
+  display: flex;
+  width: 140px;
+  height: 100%;
+  margin-right: 32px;
+  background-color: #b6f0ff;
+  border-radius: 3px 0px 0px 3px;
+  justify-content: center;
+}
+.next-item-icon img {
+  height: 40%;
+  margin: auto;
+}
