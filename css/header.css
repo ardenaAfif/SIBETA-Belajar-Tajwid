@@ -95,7 +95,6 @@
   flex-direction: column;
   padding: 10px;
   background: #b8b8b8;
-  transition: 1s all ease-in;
   z-index: -9999;
   scale: 0;
 }

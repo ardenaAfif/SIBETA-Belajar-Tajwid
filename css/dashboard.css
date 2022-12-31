@@ -114,6 +114,7 @@
   height: 195px;
   width: 73vw;
   background: #e8e8e8;
+  margin-bottom: 10px;
 }
 .next-item-icon {
   display: flex;
@@ -163,8 +164,8 @@
 }
 .button-lanjutkan {
   position: absolute;
-  right: 25vw;
-  bottom: 40px;
+  right: 24vw;
+  margin-top: 133px;
   font-size: 0.75rem;
   height: 48px;
   line-height: 48px;
@@ -178,4 +179,98 @@
 }
 .button-lanjutkan:hover {
   background-color: #23a4b0;
+}
+.dashboard-completed-lessons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  margin: 15px;
+}
+.completed-lesson-card-wrapper {
+  padding-left: 0;
+  width: 196px;
+  margin-bottom: 24px;
+  display: inline-block;
+  height: 316px;
+}
+.completed-lesson-card {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  width: 196px;
+  min-height: 277px;
+  padding: 12px 12px 24px;
+  line-height: 1;
+  border-radius: 3px;
+  opacity: 0.9;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.judul-lesson-which-completed h3 {
+  color: #fff;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.judul-lesson-which-completed {
+  margin-top: 16px;
+}
+.qalqalah-bg {
+  background-color: #d2ae78;
+}
+.icon-lesson-which-completed {
+  flex-grow: 1;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.icon-lesson-which-completed img {
+  height: 85px;
+  width: auto;
+  vertical-align: middle;
+}
+.button-tinjau-ulang {
+  background-color: #fff;
+  padding: 14px 28px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  font-size: 0.8125rem;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+.button-tinjau-ulang:hover {
+  background-color: #c59752;
+  color: #fff;
+}
+.qalqalah-color {
+  color: #d2ae78;
+}
+.logo-penanda-completed {
+  background-color: rgb(255, 255, 255);
+  color: rgba(43, 84, 106, 0.7);
+  border-radius: 40px;
+  float: left;
+  font-size: 0.75rem;
+  min-width: 24px;
+  height: 24px;
+  position: absolute;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.logo-penanda-completed img {
+  width: 13px;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }

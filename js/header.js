@@ -30,13 +30,15 @@ function tampilkan_dropdown() {
   }
 }
 
-document
-  .getElementsByClassName("drop-back")
-  .addEventListener("click", sembunyikan_dropdown);
-
-function sembunyikan_dropdown() {
-  var dropdown_checked = document.getElementsByClassName("dropdown drop-check");
-  for (var i = 0; i < dropdown_checked.length; i++) {
-    dropdown_checked[i].classList = "dropdown";
-  }
-}
+// document
+//   .getElementById("drop-back")
+//   .addEventListener("click", sembunyikan_dropdown);
+// function sembunyikan_dropdown() {
+//   $(".dropdown").removeClass("drop-check");
+//   console.log("berhasil");
+// }
+var element = document.getElementById("drop-back");
+var images = document.querySelectorAll(".dropdown");
+element.onclick = function () {
+  images[0].classList.remove("drop-check");
+};
