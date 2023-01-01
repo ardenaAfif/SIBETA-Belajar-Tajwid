@@ -51,7 +51,13 @@
             </div>
           </div>
           <div class="button">
-            <input type="submit" value="Masuk" name="tombol-submit" />
+            <input
+              type="submit"
+              value="Masuk"
+              name="tombol-submit"
+              id="tombol-submit"
+              onclick="masuk('homepage.html')"
+            />
           </div>
           <h6 class="bawah-button">
             Belum punya akun ? <span><a href="registrasi.html">Daftar</a></span>
@@ -65,5 +71,10 @@
         <h1>من علّمني حرفا سرت له عبدا</h1>
       </div>
     </div>
+    <script type="text/javascript">
+      function masuk(href) {
+        window.location.replace(href);
+      }
+    </script>
   </body>
 </html>

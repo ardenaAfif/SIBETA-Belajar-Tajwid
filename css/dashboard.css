@@ -102,6 +102,7 @@
 .heading-content {
   display: flex;
   align-items: center;
+  margin-bottom: 5px;
 }
 .heading-content h2 {
   font-size: 16px;
@@ -137,6 +138,9 @@
 }
 .next-lesson-title {
   flex-grow: 1;
+}
+.next-lesson-title-page {
+  font-weight: 600;
 }
 .progress-bar {
   display: flex;
@@ -180,12 +184,87 @@
 .button-lanjutkan:hover {
   background-color: #23a4b0;
 }
+/* // pembelajaran yang sedang berlangsung */
+.berlangsung-lesson-card {
+  display: inline-flex;
+  height: 195px;
+  width: 73vw;
+  background: #e8e8e8;
+  margin-bottom: 10px;
+}
+.ongoing-item-icon {
+  display: flex;
+  width: 140px;
+  height: 100%;
+  margin-right: 32px;
+  background-color: #b6f0ff;
+  border-radius: 3px 0px 0px 3px;
+  justify-content: center;
+}
+.ongoing-item-icon img {
+  height: 40%;
+  margin: auto;
+}
+.ongoing-lesson-title-box {
+  display: inline-flex;
+  flex-grow: 1;
+  margin: 68px 0;
+  flex-direction: column;
+}
+.ongoing-lesson-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.berlangsung-bar {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0;
+  font-size: 12px;
+}
+.berlangsung-bar-shape {
+  width: 86px;
+  height: 5px;
+  background-color: rgb(48 48 48 / 50%);
+  border: 0;
+  box-shadow: none;
+  margin: 0 12px 0 0;
+  display: inline-block;
+  text-align: right;
+  overflow: hidden;
+  border-radius: 1000vh;
+}
+.berlangsung-bar-shape-reached {
+  background-color: #3fcdff;
+  width: 23%;
+  border-radius: 1000vh;
+  height: 100%;
+}
+.button-lanjutkan {
+  position: absolute;
+  right: 24vw;
+  margin-top: 133px;
+  font-size: 0.75rem;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 28px;
+  background-color: #30c8d6;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+.button-lanjutkan:hover {
+  background-color: #23a4b0;
+}
+/* // pelajaran yang sudah selesai */
 .dashboard-completed-lessons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   position: relative;
-  margin: 15px;
+  margin: 5px 15px;
 }
 .completed-lesson-card-wrapper {
   padding-left: 0;

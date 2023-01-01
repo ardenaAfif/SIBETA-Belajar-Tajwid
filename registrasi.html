@@ -80,7 +80,13 @@
           <!--end of div.User Detail-->
           <!--end of CONTAINER-->
           <div class="button">
-            <input type="submit" value="Daftar" name="tombol-submit" />
+            <input
+              type="submit"
+              value="Daftar"
+              name="tombol-daftar"
+              id="tombol-daftar"
+              onclick="daftar('login.html')"
+            />
           </div>
           <h6 class="bawah-button">
             Sudah punya akun ? <span><a href="login.html">Masuk</a></span>
@@ -90,5 +96,10 @@
       </div>
       <!---end of div kanan --->
     </div>
+    <script type="text/javascript">
+      function daftar(href) {
+        window.location.replace(href);
+      }
+    </script>
   </body>
 </html>
