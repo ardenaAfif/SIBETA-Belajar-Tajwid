@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  box-sizing: border-box;
+  color: #2b546a;
+}
+.main {
+  position: relative;
+  top: 55px;
+}
+
+.lesson-header {
+  padding: 20px;
+  text-align: center;
+}
+.lesson-list {
+  padding: 5px 150px;
+  margin-bottom: 35px;
+}
+.lesson-list-content {
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: row;
+  height: 180px;
+}
+.gambar-lesson {
+  background-color: #24d3c6;
+  padding: 20px;
+  display: flex;
+}
+.gambar-lesson img {
+  margin: auto;
+}
+.content-lesson {
+  padding: 24px 0px 22px 22px;
+  width: 100%;
+}
+.content-lesson h2 {
+  margin-bottom: 5px;
+}
+.content-lesson p {
+  font-size: 16px;
+  width: 60%;
+  float: left;
+}
+.button-detail {
+  position: inherit;
+  background: #afd0f5;
+  float: right;
+  margin-top: 15px;
+  margin-right: 15px;
+  font-size: 0.75rem;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 28px;
+  background-color: #30c8d6;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+.button-detail:hover {
+  background-color: #23a4b0;
+}

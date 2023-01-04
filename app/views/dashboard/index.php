@@ -14,7 +14,7 @@
         <div class="row-user-profile">
             <div class="profil-detail">
                 <div class="profil-detail-img">
-                    <img src="img/profil-detail.png" alt="" />
+                    <img src="<?= BASEURL; ?>/img/profil-detail.png" alt="" />
                 </div>
                 <div class="profil-detail-text">
                     <div>Naufal Harits Prasetia</div>
@@ -23,14 +23,14 @@
             </div>
             <div class="lesson-done">
                 <div class="lesson-done-count">
-                    <img src="img/lesson-done-count.png" alt="" />
+                    <img src="<?= BASEURL; ?>/img/lesson-done-count.png" alt="" />
                     38
                 </div>
                 <div class="lesson-done-text">Pelajaran Yang Sudah Selesai</div>
             </div>
             <div class="training-done">
                 <div class="training-done-count">
-                    <img src="img/training-done-count.png" alt="" />
+                    <img src="<?= BASEURL; ?>/img/training-done-count.png" alt="" />
                     500
                 </div>
                 <div class="training-done-text">Latihan Diselesaikan</div>
@@ -40,13 +40,13 @@
         <div class="next-lesson">
             <div class="heading-next-lesson">
                 <div class="heading-content">
-                    <img src="img/heading-content.png" alt="" />
+                    <img src="<?= BASEURL; ?>/img/heading-content.png" alt="" />
                     <h2>Lanjutkan Pembelajaran</h2>
                 </div>
             </div>
             <div class="progress-lesson-card">
                 <div class="next-item-icon">
-                    <img src="img/next-item-icon.png" alt="" />
+                    <img src="<?= BASEURL; ?>/img/next-item-icon.png" alt="" />
                 </div>
                 <div class="next-lesson-title-box">
                     <div class="next-lesson-title">
@@ -68,13 +68,13 @@
         <div class="next-lesson">
             <div class="heading-next-lesson">
                 <div class="heading-content">
-                    <img src="img/heading-content.png" alt="" />
+                    <img src="<?= BASEURL; ?>/img/heading-content.png" alt="" />
                     <h2>Pembelajaran yang sedang berlangsung</h2>
                 </div>
             </div>
             <div class="berlangsung-lesson-card">
                 <div class="ongoing-item-icon">
-                    <img src="img/ongoing-item-icon.png" alt="" />
+                    <img src="<?= BASEURL; ?>/img/ongoing-item-icon.png" alt="" />
                 </div>
                 <div class="ongoing-lesson-title-box">
                     <div class="ongoing-lesson-title">Studi Waqf</div>
@@ -92,7 +92,7 @@
         <div class="next-lesson">
             <div class="heading-next-lesson">
                 <div class="heading-content">
-                    <img src="img/heading-content.png" alt="" />
+                    <img src="<?= BASEURL; ?>/img/heading-content.png" alt="" />
                     <h2>Pembelajaran yang sudah Selesai</h2>
                 </div>
             </div>
@@ -102,14 +102,14 @@
             <div class="completed-lesson-card-wrapper">
                 <div class="completed-lesson-card qalqalah-bg">
                     <div class="logo-penanda-completed">
-                        <img src="img/logo-penanda-completed.png" alt="" />
+                        <img src="<?= BASEURL; ?>/img/logo-penanda-completed.png" alt="" />
                     </div>
                     <div class="judul-lesson-which-completed">
                         <h3>Study</h3>
                         <h3>Qolqolah</h3>
                     </div>
                     <div class="icon-lesson-which-completed">
-                        <img src="img/icon-lesson-which-completed.png" alt="" />
+                        <img src="<?= BASEURL; ?>/img/icon-lesson-which-completed.png" alt="" />
                     </div>
                     <a href="">
                         <div class="button-tinjau-ulang qalqalah-color">
@@ -122,14 +122,14 @@
             <div class="completed-lesson-card-wrapper">
                 <div class="completed-lesson-card qalqalah-bg">
                     <div class="logo-penanda-completed">
-                        <img src="img/logo-penanda-completed.png" alt="" />
+                        <img src="<?= BASEURL; ?>/img/logo-penanda-completed.png" alt="" />
                     </div>
                     <div class="judul-lesson-which-completed">
                         <h3>Study</h3>
                         <h3>LAAM TA’RIEF</h3>
                     </div>
                     <div class="icon-lesson-which-completed">
-                        <img src="img/icon-lesson-which-completed.png" alt="" />
+                        <img src="<?= BASEURL; ?>/img/icon-lesson-which-completed.png" alt="" />
                     </div>
                     <a href="">
                         <div class="button-tinjau-ulang qalqalah-color">
@@ -142,14 +142,14 @@
             <div class="completed-lesson-card-wrapper">
                 <div class="completed-lesson-card qalqalah-bg">
                     <div class="logo-penanda-completed">
-                        <img src="img/logo-penanda-completed.png" alt="" />
+                        <img src="<?= BASEURL; ?>/img/logo-penanda-completed.png" alt="" />
                     </div>
                     <div class="judul-lesson-which-completed">
                         <h3>Study</h3>
                         <h3>IDGHAM</h3>
                     </div>
                     <div class="icon-lesson-which-completed">
-                        <img src="img/icon-lesson-which-completed.png" alt="" />
+                        <img src="<?= BASEURL; ?>/img/icon-lesson-which-completed.png" alt="" />
                     </div>
                     <a href="">
                         <div class="button-tinjau-ulang qalqalah-color">
@@ -162,14 +162,14 @@
             <div class="completed-lesson-card-wrapper">
                 <div class="completed-lesson-card qalqalah-bg">
                     <div class="logo-penanda-completed">
-                        <img src="img/logo-penanda-completed.png" alt="" />
+                        <img src="<?= BASEURL; ?>/img/logo-penanda-completed.png" alt="" />
                     </div>
                     <div class="judul-lesson-which-completed">
                         <h3>Study</h3>
                         <h3>MIM SUKUN DAN TANWIN</h3>
                     </div>
                     <div class="icon-lesson-which-completed">
-                        <img src="img/icon-lesson-which-completed.png" alt="" />
+                        <img src="<?= BASEURL; ?>/img/icon-lesson-which-completed.png" alt="" />
                     </div>
                     <a href="">
                         <div class="button-tinjau-ulang qalqalah-color">
@@ -183,14 +183,14 @@
             <div class="completed-lesson-card-wrapper">
                 <div class="completed-lesson-card qalqalah-bg">
                     <div class="logo-penanda-completed">
-                        <img src="img/logo-penanda-completed.png" alt="" />
+                        <img src="<?= BASEURL; ?>/img/logo-penanda-completed.png" alt="" />
                     </div>
                     <div class="judul-lesson-which-completed">
                         <h3>Study</h3>
                         <h3>NUN SUKUN DAN TANWIN</h3>
                     </div>
                     <div class="icon-lesson-which-completed">
-                        <img src="img/icon-lesson-which-completed.png" alt="" />
+                        <img src="<?= BASEURL; ?>/img/icon-lesson-which-completed.png" alt="" />
                     </div>
                     <a href="">
                         <div class="button-tinjau-ulang qalqalah-color">
@@ -203,6 +203,6 @@
     </div>
     <!-- body kanan -->
     <div class="right-container">
-        <img src="img/right-container.png" alt="" />
+        <img src="<?= BASEURL; ?>/img/right-container.png" alt="" />
     </div>
 </div>

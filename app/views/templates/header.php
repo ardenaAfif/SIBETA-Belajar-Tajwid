@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="css/<?= $data['nama_file'] ?>.css" />
-    <link rel="stylesheet" type="text/css" href="css/header.css" />
-    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="<?= BASEURL; ?>/css/<?= $data['nama_file'] ?>.css" />
+    <link rel="stylesheet" type="text/css" href="<?= BASEURL; ?>/css/header.css" />
+    <link rel="stylesheet" type="text/css" href="<?= BASEURL; ?>/css/footer.css" />
     <link rel="shortcut icon" href="img/logotok.png" type="image/x-icon" />
     <script src="https://kit.fontawesome.com/5d8dfb0173.js" crossorigin="anonymous"></script>
     <title><?= $data['judul']?></title>
@@ -20,7 +20,7 @@
 <body>
     <nav class="navbar">
         <div class="nav-container">
-            <img src="img/logobeta.svg" alt="SIBETA Logo" />
+            <img src="<?= BASEURL; ?>/img/logobeta.svg" alt="SIBETA Logo" />
             <div class="navbar-nav">
                 <ul class="nav-list">
                     <li class="nav-item">
@@ -37,7 +37,7 @@
         <div class="nav-tengah"></div>
         <div class="nav-kanan" id="navbar-kanan">
             <div class="nav-akun">
-                <img src="img/nav-akun.png" alt="profile" />
+                <img src="<?= BASEURL; ?>/img/nav-akun.png" alt="profile" />
                 <div class="nav-akun-nama-level">
                     <span>Naufal Harits P</span>
                     <span>(Lv.100)</span>
@@ -60,7 +60,7 @@
             <li>
                 <i class="fa-solid fa-bars" id="sembunyikan-sidebar"></i>
                 <div>
-                    <img src="img/nav-akun.png" alt="profile" />
+                    <img src="<?= BASEURL; ?>/img/nav-akun.png" alt="profile" />
                 </div>
                 <a href="#">naufalharisprasetia (Lv.196)</a>
             </li>
