@@ -214,6 +214,7 @@
   margin: 0 auto 2%;
   padding: 0 1.1%;
   font-size: 1rem;
+  white-space: nowrap;
 }
 .kotak-daftar-contain-kotak {
   transition: color 0.1s linear;

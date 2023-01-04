@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" href="img/logotok.png" type="image/x-icon" />
+    <title>SIBETA</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <div class="navbar">
+        <div class="navbar-left">
+            <img src="img/logobeta.svg" alt="SIBETA Logo" />
+        </div>
+        <div class="navbar-right">
+            <a href="home/login" class="btn-masuk">Masuk</a>
+            <a href="home/registrasi" class="btn-daftar">Daftar</a>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <h1 class="satu">
+            Ayo Belajar Tajwid Meningkatkan Kualitas bacaan Al - Qu’ran
+        </h1>
+    </div>
+
+    <!-- Container -->
+    <div class="container">
+        <img src="img/gambar-dashboard.svg" class="gambar-bawah" />
+    </div>
+</body>
+
+</html>
