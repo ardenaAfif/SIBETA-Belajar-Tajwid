@@ -30,7 +30,7 @@
                         <a href="<?= BASEURL; ?>/dashboard" class="nav-link">Pelajaran</a>
                     </li>
                     <li class="nav-item"><a href="#" class="nav-link">Peringkat</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Bantuan</a></li>
+                    <li class="nav-item"><a href="<?= BASEURL; ?>/bantuan" class="nav-link">Bantuan</a></li>
                 </ul>
             </div>
         </div>

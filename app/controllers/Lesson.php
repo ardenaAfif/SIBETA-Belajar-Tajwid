@@ -1,6 +1,6 @@
 <?php 
 class Lesson extends Controller {
-    public function index($id_lesson){
+    public function index($id_lesson = "default"){
         $data['nama_file'] = 'lesson';
         $data['judul'] = 'Lesson';
         $id = $id_lesson;

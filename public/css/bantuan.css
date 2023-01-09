@@ -1,0 +1,15 @@
+.main {
+  position: relative;
+  top: 55px;
+  padding: 20px 130px;
+}
+.help-top-container {
+  padding: 20px;
+  display: flex;
+}
+.left-container {
+  margin: auto;
+}
+.right-container {
+  margin-right: 100px;
+}
